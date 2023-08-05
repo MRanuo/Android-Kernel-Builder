@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Thyme-KernelSU-Proton",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "Umi-KernelSU-Proton",
+      "repo": "https://github.com/tequilaOS/platform_kernel_xiaomi_sm8250",
+      "branch": "tobacco",
+      "device": "umi",
+      "defconfig": "umi_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -39,17 +39,17 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/MRanuo/AnyKernel3/",
+      "branch": "umi"
     }
   },
   {
     "kernelSource": {
-      "name": "Thyme-Google",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "Umi-Google",
+      "repo": "https://github.com/tequilaOS/platform_kernel_xiaomi_sm8250",
+      "branch": "tobacco",
+      "device": "umi",
+      "defconfig": "umi_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -80,8 +80,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/MRanuo/AnyKernel3/",
+      "branch": "umi"
     }
   }
 ]
