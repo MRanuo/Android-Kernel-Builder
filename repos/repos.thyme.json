@@ -2,9 +2,9 @@
   {
     "kernelSource": {
       "name": "Umi-Google",
-      "repo": "https://github.com/VoidUI-Devices/kernel_xiaomi_sm8250",
+      "repo": "https://github.com/AOSP-KONA-MSMNILE-LAHAINA/kernel_xiaomi_sm8250",
       "branch": "aosp-13",
-      "device": "umi",
+      "device": "thirteen",
       "defconfig": "umi_defconfig"
     },
     "withKernelSU": false,
